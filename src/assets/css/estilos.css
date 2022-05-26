@@ -1,4 +1,30 @@
-body{
+header{
   background-color: #f1b80b;
+  display:flex;
+  align-items: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+body{
+  background-color: #dbcda1;
   color: black;
+}
+
+#logo {
+  width:50px;
+}
+
+.flex{
+  display:flex;
+}
+
+li{
+  Margin-left: 50px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Lucida Sans';
+  font-weight: bold;
 }
