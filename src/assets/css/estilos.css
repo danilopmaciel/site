@@ -1,30 +1,12 @@
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
 header{
+  width: 100%;
   background-color: #f1b80b;
-  display:flex;
-  align-items: center;
 }
-
-.align-center{
-  align-items: center;
-}
-
 body{
   background-color: #dbcda1;
   color: black;
-}
-
-#logo {
-  width:50px;
-}
-
-.flex{
-  display:flex;
-}
-
-li{
-  Margin-left: 50px;
-  font-size: 20px;
-  font-style: italic;
-  font-family: 'Lucida Sans';
-  font-weight: bold;
 }

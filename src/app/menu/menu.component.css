@@ -1,0 +1,38 @@
+
+.font{
+  font-family: 'icones';
+}
+
+  .align-center{
+  align-items: center;
+  margin-inline: 5%;
+}
+
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width:50px;
+}
+#logo-nome{
+  margin-inline: 10px;
+  font-size: 24px;
+  font-family: 'Lucida Sans';
+  font-weight: bold;
+}
+
+.menu{
+  display:flex;
+  justify-content: space-between;
+}
+
+.item{
+  margin-left: 10px;
+}
+
+.bot_menu i::before{
+  content:"\e904";
+  font-size: 24px
+}
