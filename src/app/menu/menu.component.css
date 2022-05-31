@@ -27,6 +27,10 @@
   display:flex;
   justify-content: space-between;
 }
+.item:hover{
+  color: darkorange;
+  font-size: 120%;
+}
 
 .item{
   margin-left: 10px;
