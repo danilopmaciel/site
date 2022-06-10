@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ContatoComponent } from './contato/contato.component';
 import { LayoutComponent } from './layout/layout.component';
 import { OngsComponent } from './ongs/ongs.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OngsComponent } from './ongs/ongs.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
