@@ -7,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
 
-  constructor() { }
+  nome: string="";
+
   cadastrar(){
     console.log("solicitado aaeaeaeae");
   }
+  constructor() { }
+
 
   ngOnInit() {
   }
